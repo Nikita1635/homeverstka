@@ -1,0 +1,1180 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    background:white;
+}
+
+.body * {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #e3b873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 90px;
+}
+
+.phone {
+    text-align: right;
+}
+
+.phone a {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;  
+    color: #E3B873;
+}
+
+.logo {
+    color: #e3b873;
+    margin-left: 92px;
+    }
+
+.header {
+    background-color: black;
+    width: 1440px;
+}    
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;    
+    color: #E3B873;
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+}
+
+.header-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-navigation_item a:hover {
+    text-decoration: none;
+    color: #e3b873;
+}
+
+.hero {
+    background-image: url("../images/image\ 4.3.jpg");
+    height: 707px;
+    background-size: cover;
+    padding-top: 194px;
+    padding-left: 134px;
+    position: relative;
+    width: 1306px
+    }
+
+.hero-overlay {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .7);
+    }
+.header-conteiner {
+        position: relative;
+        z-index: 1;
+    }
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+.rostov {
+    color:#e3b873;
+}
+
+.get {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.calc {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;    
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+}
+
+.submit {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    margin-left: 20px;
+    line-height: 15px;
+    text-align: center;    
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.hero_2 {
+    background:#131313;
+    height: 1000px;
+    background-size: cover;
+    padding-top: 107px;
+    padding-right:190.5px;
+    position: relative;
+    width: 1249px;
+    }
+
+.on_don {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none;
+    margin-right: -36px;
+}
+
+.on-don_item {
+    margin-right: 60.5px;  
+    }
+
+.on-don_item a {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;    
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    }
+
+ .on-don_item a:hover {
+        color: #E3B873; /* Цвет текста активного пункта */
+        text-decoration-line:underline
+ }
+.Completed {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-left: 134px;
+}   
+
+.Only {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;    
+    color: #FFFFFF;
+    padding-left: 134px;
+}
+
+.cr {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 134px;
+    padding-top: 42px;
+    color: #E3B873;
+}
+
+.r3 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.re {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 134px;
+    padding-top: 24px;
+    color: #E3B873;
+}
+
+.moun {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.ap {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 324px;
+    margin-top: -199px;
+    color: #E3B873;
+}
+
+.metr {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.rec {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-left: 324px;
+    padding-top: 45px;
+    color: #E3B873;
+}
+
+.upon {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.image2 {
+    background-image: url(../images/image\ 2.1.jpg);
+    width: 679px;
+    height: 482px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 626px;
+    margin-top: -435px;
+}
+
+.vec {
+    color: #FFFFFF;
+    margin-left: 135px;
+    margin-top: 0px;
+    font-size: 25px;
+    letter-spacing: 12px;
+}
+
+.online {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-top: 92px;
+    margin-left: 12%;
+}
+
+.camera {
+    text-align: center;
+    font-size: 108px;
+    margin-top: -71px;
+    margin-left: 12%;
+}
+
+.c1 {
+    margin-bottom: 13px;
+}
+
+.peop {
+    display: block;
+    width: 100%;
+    height: 434px;
+    background-image:   url("../images/image\ 6.png");
+    position: relative;
+    background-repeat: no-repeat;
+	background-position: top; 
+    text-align: center;
+    margin-left: 7%
+}
+
+.peop::after {
+    content: "";
+    position: absolute;
+    height: 100vw;
+    width: 100vw;
+    left: 44%;
+    top: 34%;    
+    z-index: 1;
+    background-image: url("../images/8.png");
+    background-repeat: no-repeat;
+}
+
+.at {
+   width: 1440px;
+}
+
+.Rectangle {
+    background-image: url(../images/Rectangle\ 6.9.png);
+    color: #E3B873;
+    height: 12px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 238px;
+    margin-left: 47%;
+}
+
+.at-each {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;    
+    color: #363636;
+}
+
+.colums {
+    display: flex;
+    width: 18%;
+    margin-left: 24%;
+    align-items: flex-end;
+    margin-bottom: 39px;
+}
+.colums-item {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 2;
+}
+.colums-item + .colums-item {
+	margin-left: 50%;
+}
+
+.name {
+     font-family: 'Nunito Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 21px;
+     color: rgba(54, 54, 54, 0.5);
+}
+
+.whyo {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;    
+    color: #363636;
+    margin-top: -14px;
+}
+
+.stripe {
+    margin: -14px 0;
+    padding: 0;
+    height: 7px;
+    width: 150px;
+    border: none;
+    border-top: 1px solid rgb(153, 148, 148);
+}
+
+.Submit {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    padding: 15px 76px;
+    border: 0;
+}
+
+label {
+    position: relative; /* to contain absolute elements */
+    padding-left:30px; /* free space for custom checkbox */
+    cursor: pointer;
+    margin-left: 40%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */    
+    color: #181818;
+  }
+  /* hide default checkbox  */
+  label input[type=checkbox] {
+    position: absolute; /* prevent taking any space */
+    /* cross-browser hidingg */
+    opacity: 0;
+    width:10px; 
+    height:0;
+  }
+  /* custom checkbox */
+  label span {
+    position: absolute;
+    /* position to the free space in <label> */
+    top:0;
+    left:0;
+    width:20px; 
+    height:20px;
+    background-color: #ddd;
+    transition: .3s background-color; /* slight transition */
+  }
+  /* the check icon */
+  label span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+    /* check icon */
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  label:hover span {
+    background-color: #ccc;
+  }
+  
+  /**** Here's the trick ***/
+  label input:checked ~ span {
+    background-color: #E3B873;
+  }
+  label input:checked ~ span:after {
+    display:block;
+  }
+
+  .types2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #181818;
+    margin-top: 147px;
+  }
+        
+  .molot {
+    text-align: center;
+    font-size: 108px;
+    margin-top: -71px;
+}
+
+.c2 {
+    margin-bottom: 13px;
+}
+
+.colums3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 76%;
+    margin-left: 92px;
+    position: relative;
+}
+.colums3-item {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	flex: 1;
+	height: 421px;
+}
+
+.Redecorating {
+    position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 76%;
+    margin-left: 103px;
+    margin-top: -233px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+.Redecorating-item {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	flex: 1;
+    padding: 6px 7px;
+    margin-top: 83px
+}
+
+.red {
+    width: 315px;
+    background: #FFFFFF;
+}
+
+.redec {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;   
+    color: #363636;
+    margin-left: -16px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.red-colums {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;    
+    color: #959595;
+}
+
+
+
+.house {
+    background-image: url("../images/Group\ 22.png");
+    width: 1006px;
+    height: 645px;
+    background-repeat: no-repeat;
+    margin-left: -102px;
+}
+
+.fr {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-left: -35px;
+    margin-top: 23px;
+    padding: 17px 21px;
+}
+
+.fro {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-left: -35px;
+    margin-top: 23px;
+    padding: 17px 21px;
+}
+
+.from {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-left: -35px;
+    margin-top: 23px;
+    padding: 17px 21px;
+}
+
+.right-side {
+    width: 506px;
+    height: 481px;
+    margin-left: 824px;
+    margin-top: 309px;
+    background: black;
+    padding: 20px 20px;
+  }
+  
+.leave {    
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+  
+.npe {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;    
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}  
+
+.input-boxx {
+    width: 70%; /* ширина на всю ширину правой колонки (с учетом padding) */
+    margin-left: 40px;
+    margin-bottom: 20px; /* отступаем снизу 20px */
+    
+  }
+  /* При расчете размеров инпутов учитываем внутренние отступы и границы */
+  input,
+  textarea {
+    box-sizing: border-box;
+  }
+   
+  /* Текст правой колонки */
+  .right-side p {
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Стили для input и textarea (поле сообщение) */
+  .input-boxx input  {
+    height: 100%; /* растягиваем на всю высоту контейнера 50px */
+    width: 100%; /* растягиваем на всю ширину */
+    border: 1px; /* убираем внешние края */
+    text-decoration-line:underline;
+    background: #000000; /* задаем цвет фона */
+    padding: 0 0; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: gray;
+  }
+
+  ::placeholder {
+    color: #fff ;
+  }   
+  /* Стили для контейнера кнопки */
+  .buttonn {
+    display: block;
+    margin-left: 226px;
+    margin-top: 39px;    
+  }
+  
+  /* Стили для самой кнопки */
+  .buttonn input[type="button"] {
+    color: #fff;
+    font-size: 18px;
+    background: #E3B873;
+    outline: none;
+    border: none;
+    padding: 18px 21px;
+    transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+  }
+  
+  /* Меняем цвет фона при наведении на кнопку */
+  .buttonn input[type="button"]:hover {
+    background: rgb(161, 83, 31);
+  }
+
+  .labe {
+    position: relative; /* to contain absolute elements */
+    padding-left:30px; /* free space for custom checkbox */
+    cursor: pointer;
+    margin-left: 8%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+  }
+   /* custom checkbox */
+  .labe span {
+    position: absolute;
+    /* position to the free space in <label> */
+    top:0;
+    left:0;
+    width:18px; 
+    height:18px;
+    background-color: #E3B873;
+    transition: .3s background-color; /* slight transition */
+  }
+  /* the check icon */
+  .labe span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+    /* check icon */
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 10px;
+    border: solid #E3B873;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .labe:hover span {
+    background-color: #ffffff;
+  }
+  
+  /**** Here's the trick ***/
+  .labe input:checked ~ span {
+    background-color: #E3B873;
+  }
+  .labe input:checked ~ span:after {
+    display:block;
+  }
+
+  .peper {
+    background-image: url(../images/peper.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 818px;
+    margin-top: 35px;
+    padding: 2px;
+  }
+
+  .peper p {
+    display: block;
+    margin-left: 108px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;    
+    color: #E3B873;    
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+  }
+
+  .we {
+    display: block;
+    height: 864px;
+    background-image: url(../images/interier.png);
+    background-position: center;
+    width: 1440px;
+    margin-top: 250px;
+}
+
+.were {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;    
+    color: #E3B873; 
+    padding: 135px 0 47px; 
+    margin-bottom: 0;
+}
+
+.wer {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-left: 97px;
+    list-style-type:none;
+    width: 267px;
+}
+
+.wer li a {
+    display: block; /* Ссылка как блочный элемент */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: #FFFFFF; /* Цвет текста */
+   }
+
+.wer li a:hover {
+    color: #E3B873; /* Цвет текста активного пункта */
+    text-decoration-line:underline
+}
+
+.im {
+    width: 354px;
+    margin-top: -905px;
+    margin-left: 587px;
+}
+
+.ima {
+    width: 354px;
+    margin-top: -1024px;
+    margin-left: 984px;
+}
+
+.our {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #181818;
+    margin-top: 136px;
+    margin-left: 720px;;
+}
+
+.hand {
+    margin-left: 727px;;
+}
+
+.ofuor {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    width: 483px;
+    margin-left: 540px;
+}
+
+.city {
+    background-image: url("../images/city.png");
+    background-repeat: repeat-x;
+    height: 777px;
+    width: 1440px;
+}
+
+.colums4 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 70%;
+    margin-left: 137px;
+    position: relative;
+    margin-top: -733px;
+}
+.colums4-item {
+	flex: 1;
+	height: 421px;
+}
+
+.fedor {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 83px;
+    margin-top: -62px;
+    margin-bottom: 0;
+    font-weight: bold;
+    width: 190px;
+}
+
+.want {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    width: 295px;
+
+}
+
+.butto {
+    height: 0;
+    width: 0;
+    border: none;
+}
+
+.butto img {
+margin-left: -48px;
+}
+
+.center-side {
+    width: 883px;
+    height: 445px;
+    margin-left: 228px;
+    margin-top: 59px;
+    background: black;
+    padding: 20px 20px;
+  }
+  
+.have {    
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;    
+    color: #FFFFFF;    
+}
+  
+.npen {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;    
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}  
+
+.input-boxxx {
+    width: 30%; /* ширина на всю ширину правой колонки (с учетом padding) */
+    margin-left: 185px;
+    margin-bottom: 20px; /* отступаем снизу 20px */
+    }
+.input-b {
+    width: 30%; /* ширина на всю ширину правой колонки (с учетом padding) */
+    margin-left: 185px;
+}   
+
+.input-bo {
+    width: 30%; /* ширина на всю ширину правой колонки (с учетом padding) */
+    margin-left: 462px;
+    margin-top: -180px; 
+}   
+  /* При расчете размеров инпутов учитываем внутренние отступы и границы */
+  /*input,
+  textarea {
+    box-sizing: border-box;
+  }*/
+   
+  /* Текст правой колонки */
+  .center-side p {
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Стили для input и textarea (поле сообщение) */
+  .input-boxxx input  {
+    height: 100%; /* растягиваем на всю высоту контейнера 50px */
+    width: 100%; /* растягиваем на всю ширину */
+    border: 1px; /* убираем внешние края */
+    text-decoration-line:underline;
+    background: #000000; /* задаем цвет фона */
+    padding: 0 0; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: gray;
+  }
+  .input-b input  {
+    height: 50%; /* растягиваем на всю высоту контейнера 50px */
+    width: 50%; /* растягиваем на всю ширину */
+    border: 1px; /* убираем внешние края */
+    text-decoration-line:underline;
+    background: #000000; /* задаем цвет фона */
+    padding: 0 0; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: gray;
+  }
+  .input-bo input  {
+    height: 50%; /* растягиваем на всю высоту контейнера 50px */
+    width: 50%; /* растягиваем на всю ширину */
+    border: 1px; /* убираем внешние края */
+    text-decoration-line:underline;
+    background: #000000; /* задаем цвет фона */
+    padding: 0 0; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: gray;
+  }
+
+  ::placeholder {
+    color: #fff ;
+  }   
+  /* Стили для контейнера кнопки */
+  .but {
+    display: block;
+    margin-left: 354px;
+    margin-top: -105px;
+    position: relative;    
+  }
+  
+  /* Стили для самой кнопки */
+  .but input {
+    color: #fff;
+    background: #E3B873;
+    outline: none;
+    border: none;
+    padding: 20px 54px;
+    transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;    
+  }
+  
+  /* Меняем цвет фона при наведении на кнопку */
+  .but input:hover {
+    background: rgb(161, 83, 31);
+  }
+
+  .labell {
+    display: block;
+    position: relative; /* to contain absolute elements */
+    cursor: pointer;
+    margin-left: 8%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+    margin: 129px 300px;
+  }
+   /* custom checkbox */
+  .labell span {
+    position: absolute;
+    /* position to the free space in <label> */
+    top:0;
+    left:0;
+    width:18px; 
+    height:18px;
+    background-color: #E3B873;
+    transition: .3s background-color; /* slight transition */
+  }
+  /* the check icon */
+  .labell span:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+    /* check icon */
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 10px;
+    border: solid #E3B873;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .labell:hover span {
+    background-color: #ffffff;
+  }
+  
+  /**** Here's the trick ***/
+  .labell input:checked ~ span {
+    background-color: #E3B873;
+  }
+  .labell input:checked ~ span:after {
+    display:block;
+  }
+
+  .imcity {
+    background-image: url("../images/image\ 7.2.png");
+    width:1440px;
+    height:953px;
+    position: relative;
+    margin-top: -230px;
+    background-color: rgba(0, 0, 0, .9);
+    }
+    
+    .head-cont {
+        position: relative;
+        z-index: -1;
+    }
+  
+.nansen {
+    display: block;
+    margin-top: -678px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;        
+    color: #E3B873;
+    width: 512px;
+    text-align: center;
+    margin-left: 425px;
+}
+
+.icons {
+    display: block;
+    margin-left: 625px;   
+}
+
+.icons img {
+    padding: 15px;
+    height: 28px;
+    width: 28px;
+}
+
+.maps {
+    margin-top: 1%;
+    margin-left: 228px;
+    margin-bottom: 2%;
+}
