@@ -330,10 +330,10 @@ body {
 }
 
 .camera {
-    text-align: center;
-    font-size: 108px;
-    margin-top: -71px;
-    margin-left: 12%;
+    background-image: url("../images/Frame\ 25\ \(1\).png");
+    margin-left: 605px;
+    height: 56px;
+    width: 139px;
 }
 
 .c1 {
